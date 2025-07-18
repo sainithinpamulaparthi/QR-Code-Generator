@@ -1,0 +1,31 @@
+# Sample QR Code Inputs
+
+Use these sample URLs and texts to try out the QR Code Generator:
+
+---
+
+## URLs
+
+- https://www.google.com
+- https://github.com
+- https://en.wikipedia.org/wiki/QR_code
+- https://www.instagram.com
+- https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+## Simple Text
+
+- Hello, QR Code!
+- QR Codes are awesome 🚀
+- Contact: Sai Nithin Pamulaparthi
+- The quick brown fox jumps over the lazy dog.
+
+## Email
+
+- mailto:someone@example.com
+
+## Phone Number
+
+- tel:+1234567890
+
+## WiFi (QR format)
+
