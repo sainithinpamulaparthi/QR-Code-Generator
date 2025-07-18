@@ -1,0 +1,90 @@
+:root {
+  --main-bg: #f5f6fa;
+  --card-bg: #fff;
+  --accent: #0078d7;
+  --text: #222;
+  --box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+body.dark {
+  --main-bg: #191c1d;
+  --card-bg: #23272b;
+  --accent: #33aaff;
+  --text: #eaeaea;
+  --box-shadow: 0 4px 12px rgba(0,0,0,0.42);
+}
+body {
+  background: var(--main-bg);
+  color: var(--text);
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.container {
+  max-width: 370px;
+  margin: 40px auto;
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+  padding: 28px 24px 30px 24px;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+input, select {
+  width: 100%;
+  padding: 10px 8px;
+  margin-bottom: 16px;
+  border: 1.5px solid #b9bec3;
+  border-radius: 6px;
+  font-size: 1em;
+  background: var(--main-bg);
+  color: var(--text);
+  transition: border .2s;
+}
+input:focus, select:focus {
+  border: 1.5px solid var(--accent);
+  outline: none;
+}
+#generate-btn, #download-btn, #toggle-mode {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1.07em;
+  margin-bottom: 10px;
+  transition: background 0.18s;
+  cursor: pointer;
+}
+#generate-btn:hover, #download-btn:hover, #toggle-mode:hover {
+  background: #005a9e;
+}
+#qr-code {
+  margin: 18px auto 12px auto;
+  min-height: 140px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#download-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background: var(--accent);
+}
+#toggle-mode {
+  margin-top: 10px;
+  background: transparent;
+  color: var(--accent);
+  border: 1.5px solid var(--accent);
+  font-weight: 500;
+}
+@media (max-width: 430px) {
+  .container { padding: 18px 6vw; }
+  h1 { font-size: 1.2em; }
+}
