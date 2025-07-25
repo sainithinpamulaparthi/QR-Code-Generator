@@ -1,9 +1,5 @@
-Of course! Here is a more professional, unique, and visually engaging version of your README file.
-
 🚀 QR Code Generator 🚀
 Instantly generate sleek, high-quality QR codes from any text or URL. This modern web app features a clean interface, dark/light modes, customizable sizing, and one-click PNG downloads. No registration, no fuss—just pure, private QR code creation for desktop and mobile.
-
-(Optional: Add a screenshot of your app here for a great visual first impression)
 
 ✨ Core Features
 Feature	Description	Status
